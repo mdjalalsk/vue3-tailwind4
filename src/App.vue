@@ -1,8 +1,11 @@
 <script setup>
+import MultipleSingleEmit from './components/MultipleSingleEmit.vue';
 import PersonComponent from './components/PersonComponent.vue';
 import TextComponent from './components/TextComponent.vue';
 import { reactive, ref } from 'vue';
 const text = ref('Hello World');
+const fname = ref('jalal');
+const lname = ref('Sk');
 const person=reactive({
    name:'jalal',
    email:"jalal@gmail.com"
@@ -20,6 +23,10 @@ const person=reactive({
 
     <!-- single reactive componet  -->
    <TextComponent label="Enter your Name" v-model="text" />
+   <!-- multiple  single value emits  -->
+   <p>First Name:{{ fname }} | Last Name:{{ lname }}</p>
+
+    <MultipleSingleEmit v-model:fname="fname" v-model:lname="lname" />
 
    <!-- boject value reactive compoent  -->
     <p>Name:{{ person.name }} | Email:{{person.email }}</p>
