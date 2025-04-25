@@ -1,0 +1,28 @@
+[
+    {
+      "id": 101,
+      "title": "Mastering WordPress Plugin Development in 2025",
+      "description": "Learn how to build powerful, modern WordPress plugins using OOP, ReactJS, and the REST API. Perfect for beginners and advanced developers."
+    },
+    {
+      "id": 102,
+      "title": "How to Optimize WooCommerce for Speed and Performance",
+      "description": "Discover practical techniques to improve your WooCommerce store’s speed, reduce load time, and boost conversions with caching and image optimization."
+    },
+    {
+      "id": 103,
+      "title": "Laravel vs WordPress: Which One Should You Choose?",
+      "description": "A deep dive into the strengths and weaknesses of Laravel and WordPress, helping developers and business owners make the right platform decision."
+    },
+    {
+      "id": 104,
+      "title": "React with Tailwind CSS: Build Stunning UI Fast",
+      "description": "Combine the power of React and Tailwind CSS to build modern, responsive UIs with minimal code and maximum flexibility."
+    },
+    {
+      "id": 105,
+      "title": "Top 10 Must-Have Tools for Web Developers in 2025",
+      "description": "From IDEs to deployment tools, check out the essential toolkit every web developer should have in their stack this year."
+    }
+  ]
+  
